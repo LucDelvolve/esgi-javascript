@@ -2,9 +2,9 @@ version: '3'
 services:
   node:
     image: 'node:10-alpine'
-    volume:
-        -'./:/home/node/app'
-      working_dir:'/home/node/app'
-      ports:
-        -'3000:3000'
-      command: 'npm install && npm strat'
+    volumes:
+      - './:/home/node/app'
+    working_dir: '/home/node/app'
+    ports:
+      - '4000-4000'
+    command: 'npm install && npm start'
