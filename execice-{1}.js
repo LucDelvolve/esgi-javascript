@@ -7,7 +7,7 @@ function ucfirst(str) {
 console.log(ucfirst("test"));
 console.log(ucfirst("Test"));
 console.log(ucfirst(" test"));
-console.log(ucfirst("test Test tst"));
+console.log(ucfirst("test TEst tst"));
 console.log(ucfirst(""));
 console.log(ucfirst(null));
 console.log(ucfirst({}));
